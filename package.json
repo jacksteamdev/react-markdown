@@ -1,5 +1,5 @@
 {
-  "name": "react-markdown",
+  "name": "@bumble/react-markdown",
   "description": "Renders Markdown as React components",
   "version": "4.3.1",
   "keywords": [
