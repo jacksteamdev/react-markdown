@@ -45,6 +45,10 @@ function TextRenderer(props) {
 function Root(props) {
   const useFragment = !props.className
   const root = useFragment ? React.Fragment || 'div' : 'div'
+  
+  const _props = Object.assign({}, props)
+  delete _props.sourcePosition
+
   return createElement(root, useFragment ? null : props, props.children)
 }
 
